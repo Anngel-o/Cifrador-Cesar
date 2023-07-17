@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Cifrador de César</title>
+</head>
+<body>
+    <section class="section">
+        <h1>Cifrador César</h1>
+        <form id="cifrador" autocomplete="off">
+            <input type="text" name="text" id="input-original" spellcheck="false" placeholder="Ingrese un texto">
+            <!-- spellcheck false no mostrará rayas rojas en texto mal escrito -->
+        </form>
+        
+        <div id="resultado"></div>
+        <div class="digitos">¿Cuántos dígitos se desplazará?</div>
+        <div id="rango">
+            <input type="range" id="rango" value="10" max="20" min="1" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
