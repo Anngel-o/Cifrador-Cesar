@@ -67,7 +67,7 @@ h1 {
     border-bottom-right-radius: var(--redondeado);
 }
 
-#rango {
+#range {
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 30px;
